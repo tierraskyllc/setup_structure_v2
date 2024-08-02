@@ -1,0 +1,71 @@
+<!-- pages/templates/aboutLama.html -->
+
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}About LAMA{% endblock title %}
+
+{% block content %}
+<div class="p-4 sm:ml-64">
+    <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
+       
+        <div class="grid grid-cols-3 gap-4 mb-4">
+          <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
+             <p class="text-2xl text-gray-400 dark:text-gray-500">
+                <h1 class="mb-6 text-3xl text-green-800">box1</h1>
+
+             </p>
+          </div>
+          <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
+             <p class="text-2xl text-gray-400 dark:text-gray-500">
+                <h1 class="mb-6 text-3xl text-green-800">box2</h1>
+             </p>
+          </div>
+          <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
+             <p class="text-2xl text-gray-400 dark:text-gray-500">
+                <h1 class="mb-6 text-3xl text-green-800">box3</h1>
+             </p>
+          </div>
+       </div>
+
+       <div class="flex items-center justify-center h-48 sm:h-64 lg:h-96 mb-4 rounded bg-gray-50 dark:bg-gray-800">
+          <img src="{% static "pages/assets/images/aboutLamaHeader.jpg" %}" alt="Header Image" class="w-full h-full object-cover rounded">
+       </div>
+
+       <!-- Updated box9 with Flowbite card component and wider width -->
+       <div class="flex items-center justify-center h-auto sm:h-auto lg:h-auto mb-4 rounded bg-gray-50 dark:bg-gray-800">
+          <div class="max-w-4xl p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 w-full flex flex-col justify-center">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">L.A.M.A. History</h5>
+            <p class="mb-4 text-gray-700 dark:text-gray-400">The Latin American Motorcycle Association (L.A.M.A) was founded in 1977 in Chicago's notorious Humboldt Park neighborhood. From its inception, L.A.M.A. was intended to be a Moto-Touring club with truly Democratic ideas. A lone chapter until the first chapter was started in Miami in 1995, L.A.M.A became a National Association when the first national president was elected in 1996.</p>
+            <p class="mb-4 text-gray-700 dark:text-gray-400">In 1999, L.A.M.A. became an international association with chapters in Puerto Rico, Mexico, and the U.S.A. & Cuba. Presently, L.A.M.A. has additional chapters in Uruguay, Venezuela, Argentina, Spain & Australia. LAMA was intended to be the club of the 21st century and is a work in progress!</p>
+            <p class="mb-4 text-center text-gray-700 dark:text-gray-400">Short sentence that is centered.</p>
+            <p class="mb-4 text-gray-700 dark:text-gray-400">We have evolved into an "International Humanist Association." We accept working people from all walks of life regardless of nationality, race, color, religion, social class, gender, age, the brand of motorcycle, etc. We believe being human is more important than Latin, Asian, black, white, etc. L.A.M.A. is a club without borders.</p>
+            <p class="mb-4 text-center text-gray-700 dark:text-gray-400">Short sentence.</p>
+            <p class="mb-4 text-center text-gray-700 dark:text-gray-400">Short sentence that is centered.</p>
+            <p class="mb-4 text-gray-700 dark:text-gray-400">L.A.M.A. is one of the most respected clubs in the world. As an L.A.M.A. member, there are doors opened to you in every city where we have chapters. To know L.A.M.A. is to visit the other chapters, especially in other nations.</p>
+            <p class="mb-4 text-center text-gray-700 dark:text-gray-400">Another centered short sentence.</p>
+            <p class="mb-4 text-gray-700 dark:text-gray-400">L.A.M.A. is recognized as one of the most active long-distance riding clubs in the world. Our women (DAMAS DE LAMA) accompany us on their motorcycles, riding X-treme distances. Most bikers go way too far, and others find endurance a challenge.</p>
+            <p class="mb-4 text-center text-gray-700 dark:text-gray-400">Another centered short sentence.</p>
+            <p class="mb-4 text-gray-700 dark:text-gray-400">L.A.M.A. by-laws were compiled through 30 years of experience. The by-laws serve as a guideline for our members to follow and adhere to in their commitment to L.A.M.A. On the other hand, there are times when (problems, obstacles, etc.) happen, and that's when they (become instrumental).</p>
+            <p class="mb-4 text-center text-gray-700 dark:text-gray-400">Another centered short sentence.</p>
+            <p class="mb-4 text-gray-700 dark:text-gray-400">Mario Nieves, Founder. Join the LATIN AMERICAN MOTORCYCLE ASSOCIATION today! Embrace L.A.M.A. If you have not done so, consider joining one of the best motorcycle associations in the world. We challenge you to help us improve.</p>
+            <p class="mb-4 text-center text-gray-700 dark:text-gray-400">Another centered short sentence.</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+          <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
+             <p class="text-2xl text-gray-400 dark:text-gray-500">
+                <h1 class="mb-6 text-3xl text-green-800">box4</h1>
+
+             </p>
+          </div>
+          <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
+             <p class="text-2xl text-gray-400 dark:text-gray-500">
+                <h1 class="mb-6 text-3xl text-green-800">box5</h1>
+             </p>
+          </div>
+        </div>
+    </div>
+ </div>
+{% endblock content %}

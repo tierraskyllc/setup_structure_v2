@@ -6,3 +6,6 @@ def base(request):
 
 def numbered_boxes(request):
     return render(request, 'numbered_boxes.html')
+
+def about_lama(request):
+    return render(request, 'about_lama.html')
